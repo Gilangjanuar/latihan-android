@@ -101,11 +101,45 @@
         </LinearLayout>
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btnHitung"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:text="HITUNG" />
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="140sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Luas Persegi" />
+
+        <Button
+            android:id="@+id/btnKali"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="X" />
+
+        <Button
+            android:id="@+id/btnBagi"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="+" />
+    </LinearLayout>
 
 </LinearLayout>
